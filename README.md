@@ -9,3 +9,5 @@ To install this theme launch VS Code Quick Open (Ctrl+P), and paste:
 `ext install DarioFabSanchez.DS-Web3dev-theme`
 
 Then choose **DS Web3 Developer** from the Color Theme picker.
+
+Any suggestion is welcomed https://twitter.com/0xDarioSanchez
