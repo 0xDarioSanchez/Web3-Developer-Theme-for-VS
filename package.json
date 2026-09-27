@@ -1,33 +1,36 @@
 {
-  "name": "solidity-auditor-theme",
-  "displayName": "Solidity Auditor Theme",
-  "description": "Dark theme for Solidity",
-  "version": "4.1.0",
-  "publisher": "DarioFSanchez",
+  "name": "DS-Web3dev-theme",
+  "displayName": "DS Web3 Developer Theme",
+  "description": "Dark theme for Solidity and Rust",
+  "version": "1.0.0",
+  "publisher": "DarioFabSanchez",
   "icon": "images/icon.png",
   "preview": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/SanchezDario/Solidity-Auditor-VS-Theme"
+    "url": "https://github.com/0xDarioSanchez/Web3-Developer-Theme-for-VS"
   },
+  "license": "MIT",
   "keywords": [
     "themes",
     "theme",
     "solidity",
-    "blockchain"
+    "blockchain",
+    "rust"
   ],
   "engines": {
     "vscode": "^1.89.0"
   },
   "categories": [
-    "Themes"
+    "Themes",
+    "Programming Languages"
   ],
   "contributes": {
     "languages": [
       {
         "id": "solidity",
         "aliases": [
-          "solidity",
+          "Solidity",
           "solidity"
         ],
         "extensions": [
@@ -50,7 +53,7 @@
     ],
     "themes": [
       {
-        "label": "Sol-Auditor",
+        "label": "DS Web3 Developer",
         "uiTheme": "vs-dark",
         "path": "./src/themes/Sol-Auditor-color-theme.json"
       }

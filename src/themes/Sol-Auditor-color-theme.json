@@ -1,8 +1,6 @@
 {
-	"name": "Sol-Auditor",
+	"name": "DS Web3 Developer",
 	"colors": {
-		"editor.background": "#101219",
-		"editor.foreground": "#dfe1e1",
 		"editor.background": "#12141c",
 		"editor.foreground": "#dbdbdb",
 		"sideBarTitle.foreground": "#b6b5b5",
