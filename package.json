@@ -1,0 +1,59 @@
+{
+  "name": "solidity-auditor-theme",
+  "displayName": "Solidity Auditor Theme",
+  "description": "Dark theme for Solidity",
+  "version": "4.1.0",
+  "publisher": "DarioFSanchez",
+  "icon": "images/icon.png",
+  "preview": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SanchezDario/Solidity-Auditor-VS-Theme"
+  },
+  "keywords": [
+    "themes",
+    "theme",
+    "solidity",
+    "blockchain"
+  ],
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "solidity",
+        "aliases": [
+          "solidity",
+          "solidity"
+        ],
+        "extensions": [
+          ".sol"
+        ],
+        "configuration": "./src/language-configuration.json"
+      }
+    ],
+    "configurationDefaults": {
+      "[solidity]": {
+        "editor.semanticHighlighting.enabled": false
+      }
+    },
+    "grammars": [
+      {
+        "language": "solidity",
+        "scopeName": "source.solidity",
+        "path": "./src/syntaxes/solidity.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "Sol-Auditor",
+        "uiTheme": "vs-dark",
+        "path": "./src/themes/Sol-Auditor-color-theme.json"
+      }
+    ]
+  }
+}
